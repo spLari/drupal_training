@@ -18,8 +18,10 @@ module:
   contextual: 0
   datetime: 0
   dblog: 0
+  devel: 0
   dynamic_page_cache: 0
   editor: 0
+  external: 0
   field: 0
   field_ui: 0
   file: 0
@@ -56,4 +58,5 @@ theme:
   stable: 0
   classy: 0
   movies_theme: 0
+  bartik: 0
 profile: standard

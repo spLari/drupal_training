@@ -39,10 +39,14 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
   field_lista_de_filmes:
-    type: options_buttons
+    type: entity_reference_autocomplete
     weight: 124
     region: content
-    settings: {  }
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   langcode:
     type: language_select

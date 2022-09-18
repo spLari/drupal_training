@@ -1,0 +1,6 @@
+external_enabled: true
+external_docs_enabled: false
+external_disabled_patterns: ''
+_core:
+  default_config_hash: TA4r0lAGxiTmKkdv7raMDjRbWgQ8nxFRMWIzhesNoVY
+langcode: pt-br
