@@ -1,0 +1,20 @@
+uuid: ba9f28fd-e3ea-495a-9272-d8be133b6576
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - movies_theme
+_core:
+  default_config_hash: XRdb8LpbArVA6CpuuEZxzi50JIdjsJaCCZ5o3fH0Blk
+id: movies_theme_local_actions
+theme: movies_theme
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

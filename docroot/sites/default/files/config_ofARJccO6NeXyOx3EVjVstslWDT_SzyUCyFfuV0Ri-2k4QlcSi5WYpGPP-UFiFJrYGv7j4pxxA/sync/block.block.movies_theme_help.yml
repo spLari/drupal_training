@@ -1,0 +1,22 @@
+uuid: 0cbb87e0-3aef-40d2-8d65-560fe86b68a5
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - movies_theme
+_core:
+  default_config_hash: '-laWx8WA-ikiIEH3NJQ0hVbjqk3iEuBms91LB0B4IQU'
+id: movies_theme_help
+theme: movies_theme
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

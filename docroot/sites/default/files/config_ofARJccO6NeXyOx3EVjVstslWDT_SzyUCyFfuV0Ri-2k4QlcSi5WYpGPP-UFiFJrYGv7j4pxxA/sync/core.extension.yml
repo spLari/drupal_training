@@ -52,6 +52,8 @@ module:
   views: 10
   standard: 1000
 theme:
-  olivero: 0
-  claro: 0
+  seven: 0
+  stable: 0
+  classy: 0
+  movies_theme: 0
 profile: standard
