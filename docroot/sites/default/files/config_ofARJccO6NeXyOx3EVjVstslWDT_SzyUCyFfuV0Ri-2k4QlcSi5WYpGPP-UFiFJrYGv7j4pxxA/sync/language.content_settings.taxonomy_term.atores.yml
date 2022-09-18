@@ -1,0 +1,11 @@
+uuid: f3743474-7b85-409f-85aa-fa5925e2fe8d
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.atores
+id: taxonomy_term.atores
+target_entity_type_id: taxonomy_term
+target_bundle: atores
+default_langcode: site_default
+language_alterable: false

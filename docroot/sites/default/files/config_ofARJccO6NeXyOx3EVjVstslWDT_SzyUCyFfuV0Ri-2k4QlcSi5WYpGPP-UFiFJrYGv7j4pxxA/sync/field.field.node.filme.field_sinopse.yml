@@ -1,0 +1,19 @@
+uuid: 6450490a-dc62-4710-8844-5ced71de1a64
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sinopse
+    - node.type.filme
+id: node.filme.field_sinopse
+field_name: field_sinopse
+entity_type: node
+bundle: filme
+label: Sinopse
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

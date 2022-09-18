@@ -1,0 +1,11 @@
+uuid: 82d9a3f9-261b-454c-9a59-ce8e34718673
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.ator
+id: node.ator
+target_entity_type_id: node
+target_bundle: ator
+default_langcode: site_default
+language_alterable: false

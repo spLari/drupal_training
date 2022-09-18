@@ -1,0 +1,11 @@
+uuid: 731b98e9-0d8b-475e-86e0-3fe353ca0cf1
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.filme
+id: node.filme
+target_entity_type_id: node
+target_bundle: filme
+default_langcode: site_default
+language_alterable: false

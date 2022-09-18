@@ -1,0 +1,50 @@
+uuid: 8d8ba97b-e96b-45fe-a5d1-0177b2ca73fa
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.ator.field_biografia
+    - field.field.node.ator.field_foto
+    - field.field.node.ator.field_lista_de_filmes
+    - node.type.ator
+  module:
+    - image
+    - user
+id: node.ator.default
+targetEntityType: node
+bundle: ator
+mode: default
+content:
+  field_biografia:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_foto:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_lista_de_filmes:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

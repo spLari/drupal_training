@@ -1,0 +1,27 @@
+uuid: 26a73d6d-01c2-41a4-af35-695734b1de79
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ator.field_biografia
+    - field.field.node.ator.field_foto
+    - field.field.node.ator.field_lista_de_filmes
+    - node.type.ator
+  module:
+    - user
+id: node.ator.teaser
+targetEntityType: node
+bundle: ator
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_biografia: true
+  field_foto: true
+  field_lista_de_filmes: true
+  langcode: true

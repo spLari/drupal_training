@@ -1,0 +1,29 @@
+uuid: 82c77910-f3be-47f8-adcb-94a67bdd43af
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lista_de_filmes
+    - node.type.ator
+    - node.type.filme
+id: node.ator.field_lista_de_filmes
+field_name: field_lista_de_filmes
+entity_type: node
+bundle: ator
+label: 'Lista de Filmes'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      filme: filme
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: article
+field_type: entity_reference

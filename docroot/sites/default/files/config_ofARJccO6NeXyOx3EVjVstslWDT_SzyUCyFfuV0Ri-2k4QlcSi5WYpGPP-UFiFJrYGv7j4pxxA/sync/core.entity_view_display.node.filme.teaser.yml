@@ -1,0 +1,27 @@
+uuid: e1487d99-aa73-4fc4-a84b-07342a491c35
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.filme.field_atores
+    - field.field.node.filme.field_poster
+    - field.field.node.filme.field_sinopse
+    - node.type.filme
+  module:
+    - user
+id: node.filme.teaser
+targetEntityType: node
+bundle: filme
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_atores: true
+  field_poster: true
+  field_sinopse: true
+  langcode: true
