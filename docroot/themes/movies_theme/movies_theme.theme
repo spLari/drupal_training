@@ -25,3 +25,17 @@ function movies_theme_preprocess_page(&$variables) {
 function movies_theme_preprocess_node(&$variables) {
 
 }
+
+/**
+ * Prepares variables for views fields templates.
+ */
+function movies_theme_preprocess_views_view_fields(&$variables) {
+
+    $view = $variables['view'];
+      if($view->name == "TheViewName")
+      {
+           $variables['image'] = $variables['fields']['field_image']->FIND THE IMAGE PATH BY DEVEL MODULE;
+           $variables['link'] =  $variables['fields']['field_image']->FIND THE IMAGE LINK ADDRESS BY DEVEL MODULE;  
+      }
+
+}

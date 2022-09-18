@@ -1,0 +1,26 @@
+# Portuguese, Brazil translation of External New Tab (8.x-1.0-alpha3)
+# Copyright (c) 2021 by the Portuguese, Brazil translation team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: External New Tab (8.x-1.0-alpha3)\n"
+"POT-Creation-Date: 2021-10-23 14:46+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Portuguese, Brazil\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "Settings"
+msgstr "Configurações"
+msgid ""
+"Enter one page per line as Drupal paths. The '*' character is a "
+"wildcard. Example paths are %blog for the blog page and %blog-wildcard "
+"for every personal blog. %front is the front page."
+msgstr ""
+"Digite uma URL do Drupal por linha. O asterisco (*) serve como "
+"coringa. Por exemplo: %blog para a página de blogs e %blog-wildcard "
+"para todos os blogs pessoais. Use %front para a página inicial."
+msgid "External Links"
+msgstr "Links externos"
